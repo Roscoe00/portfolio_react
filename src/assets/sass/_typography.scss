@@ -1,0 +1,86 @@
+@use "./variables"as *;
+
+
+* {
+   margin: 0;
+   padding: 0;
+   font-family: $primaryFont;
+}
+
+h1,
+h2,
+h3 {
+   font-weight: 500;
+
+}
+
+
+h1 {
+   font-size: calc($phone-font * 8);
+   color: $secondaryFontColor;
+}
+
+h2 {
+   font-size: calc($phone-font * 4);
+   color: $primaryFontColor;
+}
+
+h3 {
+   font-size: calc($phone-font * 2.5);
+   color: $secondaryFontColor;
+}
+
+a {
+   font-size: calc($phone-font * 2);
+   color: $secondaryFontColor;
+}
+
+p {
+   font-size: calc($phone-font * 1.5);
+   font-family: $secondaryFont;
+   color: $secondaryFontColor;
+}
+
+@media screen and (min-width:768px) {
+   h1 {
+      font-size: calc($tablet-font * 8);
+   }
+
+   h2 {
+      font-size: calc($tablet-font * 4);
+   }
+
+   h3 {
+      font-size: calc($tablet-font * 2.5);
+   }
+
+   a {
+      font-size: calc($tablet-font * 2);
+   }
+
+   p {
+      font-size: calc($tablet-font * 1.5);
+   }
+}
+
+@media screen and (min-width:1024px) {
+   h1 {
+      font-size: calc($desktop-font * 8);
+   }
+
+   h2 {
+      font-size: calc($desktop-font * 4);
+   }
+
+   h3 {
+      font-size: calc($desktop-font * 2.5);
+   }
+
+   a {
+      font-size: calc($desktop-font * 2);
+   }
+
+   p {
+      font-size: calc($desktop-font * 1.5);
+   }
+}

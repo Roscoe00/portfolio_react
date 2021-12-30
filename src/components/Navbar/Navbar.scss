@@ -1,0 +1,39 @@
+@use "../../assets/sass/variables"as *;
+
+.nav {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+   border-bottom: 5px solid $secondaryFontColor;
+   background-image: linear-gradient($tertiaryBackColor, $tertiaryBackColor), url(../../assets/images/city.jpg);
+
+   &__name {
+      margin: 10px 15px;
+      color: $secondaryFontColor;
+   }
+
+   &__links {
+
+      &-title {
+         display: none;
+      }
+   }
+
+}
+
+@media screen and (min-width:768px) {
+   .nav__links {
+      display: flex;
+
+      &-icon {
+         display: none;
+      }
+
+      &-title {
+         display: block;
+         margin-right: 1.5rem;
+         text-decoration: none;
+      }
+   }
+}
