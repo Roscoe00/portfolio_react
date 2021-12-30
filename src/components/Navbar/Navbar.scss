@@ -1,19 +1,28 @@
 @use "../../assets/sass/variables"as *;
 
+
+
 .nav {
    display: flex;
    flex-direction: row;
    justify-content: space-between;
    align-items: center;
    border-bottom: 5px solid $secondaryFontColor;
+   position: sticky;
+   top: 0;
    background-image: linear-gradient($tertiaryBackColor, $tertiaryBackColor), url(../../assets/images/city.jpg);
 
    &__name {
-      margin: 10px 15px;
+      margin: 0.5rem 1rem;
       color: $secondaryFontColor;
    }
 
    &__links {
+      padding: 1rem;
+
+      &-icon>.icon {
+         color: $secondaryFontColor;
+      }
 
       &-title {
          display: none;

@@ -16,7 +16,7 @@ h3 {
 
 
 h1 {
-   font-size: calc($phone-font * 8);
+   font-size: calc($phone-font * 6);
    color: $secondaryFontColor;
 }
 
@@ -41,9 +41,14 @@ p {
    color: $secondaryFontColor;
 }
 
+.icon {
+   font-size: calc($phone-font * 6);
+   color: $primaryFontColor;
+}
+
 @media screen and (min-width:768px) {
    h1 {
-      font-size: calc($tablet-font * 8);
+      font-size: calc($tablet-font * 6);
    }
 
    h2 {
@@ -61,11 +66,15 @@ p {
    p {
       font-size: calc($tablet-font * 1.5);
    }
+
+   .icon {
+      font-size: calc($tablet-font * 6);
+   }
 }
 
 @media screen and (min-width:1024px) {
    h1 {
-      font-size: calc($desktop-font * 8);
+      font-size: calc($desktop-font * 6);
    }
 
    h2 {
@@ -82,5 +91,9 @@ p {
 
    p {
       font-size: calc($desktop-font * 1.5);
+   }
+
+   .icon {
+      font-size: calc($desktop-font * 6);
    }
 }
