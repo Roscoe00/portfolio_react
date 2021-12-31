@@ -1,0 +1,31 @@
+@import "../sass/variables";
+
+// .block {
+//    height: 2.5rem;
+// }
+.about {
+   &__grid {
+      display: grid;
+      grid-template-areas:
+         "aDesc1"
+         "aDesc2"
+         "aImage";
+      margin: 0 10vw;
+      gap: 1.5rem;
+   }
+
+   &__image {
+      background-color: $secondaryFontColor;
+      height: 300vh;
+      margin: auto;
+      grid-area: aImage;
+   }
+
+   &__paragraph-one {
+      grid-area: aDesc1;
+   }
+
+   &__paragraph-two {
+      grid-area: aDesc2;
+   }
+}
