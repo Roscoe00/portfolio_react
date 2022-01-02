@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Experience.scss"
 
-import html5 from "../../assets/images/html5-logo.svg"
+
 import css from "../../assets/images/css-logo.svg"
 import js from "../../assets/images/js-logo.svg"
 import sass from "../../assets/images/sass-logo.svg"
