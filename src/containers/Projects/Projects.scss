@@ -1,0 +1,11 @@
+@use "../../assets/sass/variables"as *;
+
+.projects {
+   border-top: 0.5rem solid $secondaryFontColor;
+   margin: 12vh 3vh 0;
+   padding-bottom: 12vh;
+
+   &__title {
+      padding: 3vh 0 5vh;
+   }
+}

@@ -28,21 +28,23 @@
       height: 3rem;
       width: 25vw;
       padding: 5vh 0;
-   }
-
-   &__html {
-      grid-area: html;
-      height: 10rem;
-
-
-      path:hover {
-         fill: $secondaryFontColor;
-      }
 
       path {
          fill: $primaryFontColor;
       }
 
+      &:hover {
+         path {
+            fill: $secondaryFontColor;
+         }
+
+
+
+      }
+   }
+
+   &__html {
+      grid-area: html;
    }
 
    &__css {
