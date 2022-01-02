@@ -1,0 +1,68 @@
+@use "../../assets/sass/variables"as *;
+
+
+.about {
+   border-top: 0.5rem solid $secondaryFontColor;
+   margin: 12vh 3vh 0;
+   padding-bottom: 12vh;
+
+   &__title {
+      padding: 3vh 0 5vh;
+   }
+
+   &__grid {
+      display: grid;
+      grid-template-areas:
+         "aDesc1"
+         "aDesc2"
+         "aImage";
+      margin: 0;
+      gap: 1.5rem;
+   }
+
+   &__image {
+      background-color: $secondaryFontColor;
+      height: 40vh;
+      width: auto;
+      grid-area: aImage;
+      padding: 1vh;
+      margin: auto;
+   }
+
+   &__paragraph-one {
+      grid-area: aDesc1;
+   }
+
+   &__paragraph-two {
+      grid-area: aDesc2;
+   }
+}
+
+
+@media screen and (min-width:768px) {
+   .about {
+      &__grid {
+         grid-template-areas:
+            "aImage aDesc1"
+            "aDesc2 aDesc2";
+         gap: 2.5rem;
+         margin: 0 5vw;
+      }
+
+   }
+}
+
+@media screen and (min-width:1280px) {
+   .about {
+      &__grid {
+         grid-template-areas:
+            "aImage aDesc1"
+            "aImage aDesc2";
+         gap: 3.5rem;
+      }
+
+      &__image {
+         margin: 0 3vw;
+      }
+   }
+}

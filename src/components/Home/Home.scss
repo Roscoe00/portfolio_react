@@ -9,8 +9,9 @@
       align-items: center;
       justify-content: space-between;
       gap: 6rem;
-      margin: 10vh 25vw;
-      padding-bottom: 20vh;
+      margin: auto;
+      padding: 20vh 12vw 30vh;
+      max-width: 55vw;
 
       &-name {
          color: $primaryFontColor;
@@ -18,10 +19,11 @@
    }
 }
 
+
 @media screen and (min-width:1440px) {
    .home {
       &__header {
-         margin: 10vh 32vw;
+         max-width: 30vw;
       }
    }
 }

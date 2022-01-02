@@ -1,1 +1,7 @@
 @use "./assets/sass/typography"as *;
+@use "./assets/sass/variables"as *;
+
+.App {
+   background-color: $primaryBackColor;
+   box-sizing: border-box;
+}
