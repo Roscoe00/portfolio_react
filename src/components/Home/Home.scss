@@ -10,7 +10,7 @@
       justify-content: space-between;
       gap: 6rem;
       margin: auto;
-      padding: 8vh 12vw 30vh;
+      padding: 20vh 12vw 30vh;
       max-width: 55vw;
 
       &-name {
@@ -23,7 +23,7 @@
 @media screen and (min-width:1440px) {
    .home {
       &__header {
-         max-width: 35vw;
+         max-width: 30vw;
       }
    }
 }

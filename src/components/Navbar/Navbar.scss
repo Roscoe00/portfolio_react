@@ -3,12 +3,13 @@
 
 
 .nav {
+   width: 100vw;
    display: flex;
    flex-direction: row;
    justify-content: space-between;
    align-items: center;
-   border-bottom: 5px solid $secondaryFontColor;
-   position: sticky;
+   border-bottom: 0.5rem solid $secondaryFontColor;
+   position: fixed;
    top: 0;
    background-image: linear-gradient($tertiaryBackColor, $tertiaryBackColor), url(../../assets/images/city.jpg);
 

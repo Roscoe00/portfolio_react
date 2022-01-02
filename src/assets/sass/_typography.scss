@@ -23,6 +23,7 @@ h1 {
 h2 {
    font-size: calc($phone-font * 4);
    color: $primaryFontColor;
+   text-align: center;
 }
 
 h3 {
@@ -36,7 +37,7 @@ a {
 }
 
 p {
-   font-size: calc($phone-font * 1.5);
+   font-size: calc($phone-font * 2);
    font-family: $secondaryFont;
    color: $secondaryFontColor;
 }
@@ -64,7 +65,7 @@ p {
    }
 
    p {
-      font-size: calc($tablet-font * 1.5);
+      font-size: calc($tablet-font * 2);
    }
 
    .icon {
@@ -90,7 +91,7 @@ p {
    }
 
    p {
-      font-size: calc($desktop-font * 1.5);
+      font-size: calc($desktop-font * 2);
    }
 
    .icon {

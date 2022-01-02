@@ -1,0 +1,100 @@
+@use "../../assets/sass/variables"as *;
+
+.experience {
+   margin: 12vh 3vh 0;
+
+   &__heading {
+      border-top: 0.5rem solid $secondaryFontColor;
+      padding: 3vh 0 10vh;
+   }
+
+   &__grid {
+      display: grid;
+      grid-template-areas:
+         "html css js"
+         "sass boot java"
+         ". node .";
+      justify-content: center;
+      margin: 0 auto;
+
+      :nth-child(3n+2) {
+         border-left: 0.5rem solid $secondaryFontColor;
+         border-right: 0.5rem solid $secondaryFontColor;
+      }
+
+   }
+
+   &__logo {
+      height: 3rem;
+      width: 25vw;
+      padding: 5vh 0;
+   }
+
+   &__html {
+      grid-area: html;
+      height: 10rem;
+
+
+      path:hover {
+         fill: $secondaryFontColor;
+      }
+
+      path {
+         fill: $primaryFontColor;
+      }
+
+   }
+
+   &__css {
+      grid-area: css;
+   }
+
+   &__js {
+      grid-area: js;
+   }
+
+   &__sass {
+      grid-area: sass;
+   }
+
+   &__boot {
+      grid-area: boot;
+   }
+
+   &__java {
+      grid-area: java;
+   }
+
+   &__node {
+      border-left: 0.5rem solid $secondaryFontColor;
+      border-right: 0.5rem solid $secondaryFontColor;
+      grid-area: node;
+   }
+}
+
+@media screen and (min-width:768px) {
+   .experience {
+      &__logo {
+         height: 4.5rem;
+         width: 25vw;
+         padding: 8vh 0;
+      }
+
+
+   }
+}
+
+@media screen and (min-width:1024px) {
+   .experience {
+      &__grid {
+         margin: 0 auto;
+      }
+
+      &__logo {
+         width: 24rem;
+         height: 6rem;
+      }
+
+
+   }
+}
