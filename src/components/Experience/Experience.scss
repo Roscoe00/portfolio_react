@@ -12,8 +12,7 @@
       display: grid;
       grid-template-areas:
          "html css js"
-         "sass boot java"
-         ". node .";
+         "sass boot java";
       justify-content: center;
       margin: 0 auto;
 
@@ -67,18 +66,12 @@
       grid-area: java;
    }
 
-   &__node {
-      border-left: 0.5rem solid $secondaryFontColor;
-      border-right: 0.5rem solid $secondaryFontColor;
-      grid-area: node;
-   }
 }
 
 @media screen and (min-width:768px) {
    .experience {
       &__logo {
          height: 4.5rem;
-         width: 25vw;
          padding: 8vh 0;
       }
 
