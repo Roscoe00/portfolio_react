@@ -43,7 +43,7 @@ p {
 }
 
 .icon {
-   font-size: calc($phone-font * 6);
+   width: calc($phone-font * 6);
    color: $primaryFontColor;
 }
 
@@ -69,7 +69,7 @@ p {
    }
 
    .icon {
-      font-size: calc($tablet-font * 6);
+      width: calc($tablet-font * 6);
    }
 }
 
@@ -95,6 +95,6 @@ p {
    }
 
    .icon {
-      font-size: calc($desktop-font * 6);
+      width: calc($desktop-font * 6);
    }
 }

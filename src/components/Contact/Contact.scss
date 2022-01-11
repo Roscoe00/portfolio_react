@@ -1,0 +1,77 @@
+@use "../../assets/sass/variables"as *;
+
+.contact__logo {
+   height: 3rem;
+
+   path {
+      fill: $primaryFontColor;
+   }
+
+   &:hover {
+      path {
+         fill: $secondaryFontColor;
+      }
+   }
+}
+
+.contact__grid {
+   display: flex;
+   flex-direction: column;
+   // grid-template-areas:
+   //    "mailIcon mailIcon"
+   //    "email email"
+   //    "cv linkedin"
+   //    "github github";
+   align-items: center;
+   // gap: 50px;
+   // margin: auto;
+   // margin: 0 10%;
+   // padding-bottom: 60px;
+
+   // * {
+   //    color: $primaryFontColor;
+   //    font-size: 5rem;
+   // }
+
+   .contact__email {
+      font-family: $secondaryFont;
+      color: $secondaryFontColor;
+      font-size: 2rem;
+      grid-area: email;
+      padding: 0px 0 50px;
+      border-bottom: 5px solid $secondaryFontColor;
+      margin: 0 5%;
+   }
+
+   .contact__mailIcon {
+      grid-area: mailIcon;
+   }
+
+   .contact__cv {
+      grid-area: cv;
+   }
+
+   .contact__linkedin {
+      grid-area: linkedin;
+   }
+
+   .contact__github {
+      grid-area: github;
+   }
+}
+
+@media screen and (min-width:768px) {
+   .contact {
+      &__logo {
+         height: 4.5rem;
+      }
+   }
+}
+
+@media screen and (min-width:1024px) {
+   .contact {
+      &__logo {
+         height: 6rem;
+      }
+   }
+}

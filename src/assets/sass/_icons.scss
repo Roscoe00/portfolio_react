@@ -1,0 +1,24 @@
+@use "./variables"as *;
+
+.arrow {
+   width: calc($phone-font * 6);
+   color: $primaryFontColor;
+
+   &:hover {
+      path {
+         fill: $secondaryFontColor;
+      }
+   }
+}
+
+@media screen and (min-width:768px) {
+   .arrow {
+      width: calc($tablet-font * 6);
+   }
+}
+
+@media screen and (min-width:1024px) {
+   .arrow {
+      width: calc($desktop-font * 6);
+   }
+}

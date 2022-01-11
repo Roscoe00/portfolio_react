@@ -1,0 +1,22 @@
+@use "../../assets/sass/icons"as *;
+@use "../../assets/sass/variables"as *;
+
+
+.projects {
+   border-top: 0.5rem solid $secondaryFontColor;
+   margin: 12vh 3vh 0;
+   padding-bottom: 12vh;
+
+   &__title {
+      padding: 3vh 0 5vh;
+   }
+
+   &__arrows {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: relative;
+      bottom: 8.5rem;
+
+   }
+}
