@@ -1,62 +1,46 @@
 @use "../../assets/sass/variables"as *;
 
-.contact__logo {
-   height: 3rem;
+.contact {
+   margin: 12vh 3vh 0;
+   padding-bottom: 12vh;
 
-   path {
-      fill: $primaryFontColor;
+   &__heading {
+      border-top: 0.5rem solid $secondaryFontColor;
+      padding: 3vh 0 5vh;
    }
 
-   &:hover {
+   &__logo {
+      height: 3rem;
+
       path {
-         fill: $secondaryFontColor;
+         fill: $primaryFontColor;
+      }
+
+      &:hover {
+         path {
+            fill: $secondaryFontColor;
+         }
       }
    }
-}
 
-.contact__grid {
-   display: flex;
-   flex-direction: column;
-   // grid-template-areas:
-   //    "mailIcon mailIcon"
-   //    "email email"
-   //    "cv linkedin"
-   //    "github github";
-   align-items: center;
-   // gap: 50px;
-   // margin: auto;
-   // margin: 0 10%;
-   // padding-bottom: 60px;
-
-   // * {
-   //    color: $primaryFontColor;
-   //    font-size: 5rem;
-   // }
-
-   .contact__email {
-      font-family: $secondaryFont;
-      color: $secondaryFontColor;
-      font-size: 2rem;
-      grid-area: email;
-      padding: 0px 0 50px;
-      border-bottom: 5px solid $secondaryFontColor;
-      margin: 0 5%;
+   &__flex {
+      display: flex;
+      flex-direction: column;
+      align-items: stretch;
+      text-align: center;
    }
 
-   .contact__mailIcon {
-      grid-area: mailIcon;
+   &__subflex {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      padding: 3rem 0;
    }
 
-   .contact__cv {
-      grid-area: cv;
-   }
-
-   .contact__linkedin {
-      grid-area: linkedin;
-   }
-
-   .contact__github {
-      grid-area: github;
+   &__email {
+      padding: 0 0 3rem;
+      border-bottom: 0.5rem solid $secondaryFontColor;
+      margin: 0 5vw;
    }
 }
 

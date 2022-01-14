@@ -5,7 +5,6 @@
    display: flex;
    flex-direction: column;
    align-items: center;
-   min-height: 20rem;
    gap: 1.5rem;
 
    &__title {
@@ -18,5 +17,16 @@
       width: 80vw;
       height: auto;
       border: 0.5rem solid $secondaryFontColor;
+   }
+
+   &__description {
+      width: 70vw;
+   }
+
+   &__header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      min-width: 90vw;
    }
 }
