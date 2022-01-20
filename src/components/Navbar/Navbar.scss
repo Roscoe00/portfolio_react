@@ -12,7 +12,7 @@
    position: fixed;
    top: 0;
    background-image: linear-gradient($tertiaryBackColor, $tertiaryBackColor), url(../../assets/images/city.jpg);
-   z-index: 2;
+   height: 6rem;
 
    &__name {
       margin: 0.5rem 1rem;
@@ -22,29 +22,50 @@
    &__links {
       padding: 1rem;
 
+      &-title {
+         text-decoration: none;
+
+      }
+
+      &-titles {
+         align-items: center;
+         display: flex;
+         position: fixed;
+         top: 7rem;
+         right: 1rem;
+
+      }
+
       &-icon {
          color: $secondaryFontColor;
       }
 
-      &-title {
-         display: none;
+      &-name {
+         text-decoration: none;
       }
+
    }
 
 }
 
 @media screen and (min-width:768px) {
-   .nav__links {
-      display: flex;
+   .nav {
 
-      &-icon {
-         display: none;
-      }
+      &__links {
+         display: flex;
 
-      &-title {
-         display: block;
-         margin-right: 1.5rem;
-         text-decoration: none;
+         &-icon {
+            display: none;
+         }
+
+         &-title {
+            position: unset;
+            margin-right: 1.5rem;
+         }
+
+         &-titles {
+            position: static;
+         }
       }
    }
 }

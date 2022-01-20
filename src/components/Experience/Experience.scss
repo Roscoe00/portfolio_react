@@ -87,8 +87,19 @@
       }
 
       &__logo {
-         width: 24rem;
+         width: 20rem;
          height: 6rem;
+      }
+
+
+   }
+}
+
+@media screen and (min-width:1440px) {
+   .experience {
+
+      &__logo {
+         width: 24rem;
       }
 
 
