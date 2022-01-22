@@ -2,7 +2,7 @@ export const projects = [
    {
       id: 1,
       title: "Calculator",
-      description: "This was my first every javascript project! It's a calculator with all basic operators as well as a few nice extras. Overall this was a great introduction project and taught me a lot about the basics of a javascript element that relies on user interaction.",
+      description: "This was my first ever javascript project! It's a calculator with all basic operators as well as a few nice extras. Overall this was a great introduction project and taught me a lot about the basics of a javascript element that relies on user interaction.",
       imageInfo: "A calculator within a new web page",
       url: "https://roscoe00.github.io/calculator/calculator.html",
    },
