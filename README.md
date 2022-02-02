@@ -18,5 +18,6 @@ The main challenge of this portfolio was the projects section. I made my own obj
 Another important part of the portfolio I'm happy with is the navigation bar. I used React Hash links for the nav bar to get the smooth scrolling effect, which allows me to use a function to stop in a position where the navbar doesnt cover the title of the section its on. 
 
 ## Future Fixes
-- improve how the projects section displays on bigger screens
-- have the pdf icon open/download a copy of my CV
+- Improve how the projects section displays on bigger screens
+- Have the pdf icon open/download a copy of my CV
+- Improve styling for mobile menu
