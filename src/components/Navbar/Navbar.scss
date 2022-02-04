@@ -1,7 +1,5 @@
 @use "../../assets/sass/variables"as *;
 
-
-
 .nav {
    width: 100vw;
    display: flex;
@@ -20,20 +18,15 @@
    }
 
    &__links {
-      padding: 1rem;
+      padding: 1.5rem;
+
 
       &-title {
          text-decoration: none;
-
       }
 
       &-titles {
-         align-items: center;
-         display: flex;
-         position: fixed;
-         top: 7rem;
-         right: 1rem;
-
+         display: none;
       }
 
       &-icon {
@@ -42,6 +35,13 @@
 
       &-name {
          text-decoration: none;
+      }
+
+      &--active {
+         background-color: $primaryBackColor;
+         border: 0.5rem solid $secondaryFontColor;
+         box-sizing: border-box;
+         padding: 1rem;
       }
 
    }
@@ -54,17 +54,24 @@
       &__links {
          display: flex;
 
+         &--active {
+            background-color: transparent;
+            border: none;
+            padding: 1.5rem;
+         }
+
          &-icon {
             display: none;
          }
 
-         &-title {
-            position: unset;
-            margin-right: 1.5rem;
+         &-titles {
+            align-items: center;
+            display: flex;
+            right: 1rem;
          }
 
-         &-titles {
-            position: static;
+         &-title {
+            margin-right: 1.5rem;
          }
       }
    }
