@@ -14,6 +14,7 @@
       grid-template-areas:
          "aDesc1"
          "aDesc2"
+         "aDesc3"
          "aImage";
       margin: 0;
       gap: 1.5rem;
@@ -21,7 +22,7 @@
 
    &__image {
       background-color: $secondaryFontColor;
-      height: 40vh;
+      height: 50vh;
       width: auto;
       grid-area: aImage;
       padding: 1vh;
@@ -35,6 +36,10 @@
    &__paragraph-two {
       grid-area: aDesc2;
    }
+
+   &__paragraph-three {
+      grid-area: aDesc3;
+   }
 }
 
 
@@ -43,7 +48,8 @@
       &__grid {
          grid-template-areas:
             "aImage aDesc1"
-            "aDesc2 aDesc2";
+            "aDesc2 aDesc2"
+            "aDesc3 aDesc3";
          gap: 2.5rem;
          margin: 0 5vw;
       }
@@ -56,7 +62,8 @@
       &__grid {
          grid-template-areas:
             "aImage aDesc1"
-            "aImage aDesc2";
+            "aImage aDesc2"
+            "aImage aDesc3";
          gap: 3.5rem;
       }
 
