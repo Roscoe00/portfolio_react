@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/portfolio_react/static/css/main.b3282301.css",
+    "main.js": "/portfolio_react/static/js/main.b653b4ad.js",
+    "static/js/787.375a7d81.chunk.js": "/portfolio_react/static/js/787.375a7d81.chunk.js",
+    "static/media/snakes.png": "/portfolio_react/static/media/snakes.f1c575ed46873c0e0847.png",
+    "static/media/city.jpg": "/portfolio_react/static/media/city.bbc497c73c4c36ff7a05.jpg",
+    "static/media/tickets.png": "/portfolio_react/static/media/tickets.0fdac545343da051a955.png",
+    "static/media/calculator.png": "/portfolio_react/static/media/calculator.94270ab75174c16b6870.png",
+    "static/media/IPA.png": "/portfolio_react/static/media/IPA.b64e4cc143d8aeaad54b.png",
+    "static/media/about_me.jpg": "/portfolio_react/static/media/about_me.fc2b5981045b30d4adf2.jpg",
+    "static/media/CV_09_09_2023.pdf": "/portfolio_react/static/media/CV_09_09_2023.2b0b2fc592176cbe6587.pdf",
+    "static/media/morse.png": "/portfolio_react/static/media/morse.3d4c2c1f1446aa325c53.png",
+    "index.html": "/portfolio_react/index.html",
+    "main.b3282301.css.map": "/portfolio_react/static/css/main.b3282301.css.map",
+    "main.b653b4ad.js.map": "/portfolio_react/static/js/main.b653b4ad.js.map",
+    "787.375a7d81.chunk.js.map": "/portfolio_react/static/js/787.375a7d81.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b3282301.css",
+    "static/js/main.b653b4ad.js"
+  ]
+}
