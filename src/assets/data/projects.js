@@ -11,7 +11,7 @@ export const projects = [
       title: "Snakes & Ladders",
       description: "When tasked with making a game I knew I had to make this classic that I played a ton growing up.Although the game is basic, it helped me to improve my function making skills significantly and really helped me to think outside the box for making things work in javascript.",
       imageInfo: "A snakes and ladders game within a new web page",
-      url: "https://roscoe00.github.io/tetris/snakes&ladders",
+      url: "https://roscoe00.github.io/Snakes-Ladders/index.html",
    },
    {
       id: 3,
